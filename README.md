@@ -1,5 +1,5 @@
 <div>
-  <h1> Profile Page/ Página de perfil </h1>
+  <h1> Onclick Event</h1>
   <h3> Author --> https://github.com/gabrielagallardoreyes </h3>
   <ul>
     <li>Preview: https://gabrielagallardoreyes.github.io/onclick.github.io/ </li>
