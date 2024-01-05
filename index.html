@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Onclick</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="nav-bar">
+            <h1 class="title">Dojonary</h1>
+            <input class="search" type="text" name="nombre" placeholder="Search">
+            <button class="btn" onclick="cambiar_texto(this)">Login</button>
+        </nav>
+    </header>
+
+    <!-- contenedor principal -->
+
+    <div class="main-container">
+        <!-- cajas de lado izquierdo -->
+        <div class="container1">
+            <div class="box-left">
+                <div class="column1">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <p>Plural: <span class="cursive">ninjas</span></p>
+                    <button class="btn2" onclick="me_gusta(this)">13 likes</button> 
+                </div>
+                <div class="column2">
+                    <p>A practioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="box-left">
+                <div class="column1">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <p>Plural: <span class="cursive" >ninjas</span></p>
+                    <button class="btn2" onclick="alert('Ninja was liked')">37 likes</button> 
+                </div>
+                <div class="column2">
+                    <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- caja lado derecho -->
+        <div class="conatiner2">
+            <div class="box-right">
+                <h2>Dojonary is defined by<span class="bold"> YOU</span></h2>
+                <button class="btn3" onclick="eliminar(this)">Add Definition</button>
+
+            </div>  
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
